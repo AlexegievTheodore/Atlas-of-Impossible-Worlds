@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/alexe/Desktop/Folders/Lucius/Projects/Software/Atlas of Impossible Worlds/src/main.cpp" "CMakeFiles/atlas.dir/src/main.cpp.obj" "gcc" "CMakeFiles/atlas.dir/src/main.cpp.obj.d"
+  "C:/Users/alexe/Desktop/Folders/Lucius/Projects/Software/Atlas of Impossible Worlds/src/world/World.cpp" "CMakeFiles/atlas.dir/src/world/World.cpp.obj" "gcc" "CMakeFiles/atlas.dir/src/world/World.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

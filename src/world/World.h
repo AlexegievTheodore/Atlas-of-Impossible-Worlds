@@ -2,23 +2,20 @@
 
 #include <cstddef>
 
-namespace atlas
+class World
 {
-    class World
-    {
-    public:
-        static constexpr std::size_t Width = 128;
-        static constexpr std::size_t Height = 128;
+public:
+    static constexpr std::size_t Width = 128;
+    static constexpr std::size_t Height = 128;
 
-    private:
-        float elevations[Height][Width]{};
-    };
+    World();
 
-    World::World(/* args */)
-    {
-    }
+    const float (&getElevations() const)[Height][Width];
 
-    World::~World()
-    {
-    }
-}
+    void setElevation(std::size_t row, std::size_t column, float value);
+
+    ~World();
+
+private:
+    float elevations[Height][Width]{};
+};

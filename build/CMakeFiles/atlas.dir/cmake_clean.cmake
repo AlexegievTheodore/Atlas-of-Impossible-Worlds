@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/atlas.dir/src/main.cpp.obj"
   "CMakeFiles/atlas.dir/src/main.cpp.obj.d"
+  "CMakeFiles/atlas.dir/src/world/World.cpp.obj"
+  "CMakeFiles/atlas.dir/src/world/World.cpp.obj.d"
   "atlas.exe"
   "atlas.exe.manifest"
   "atlas.pdb"

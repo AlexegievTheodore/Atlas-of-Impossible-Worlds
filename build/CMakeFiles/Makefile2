@@ -84,12 +84,12 @@ clean: CMakeFiles/atlas.dir/clean
 CMakeFiles/atlas.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\atlas.dir\build.make CMakeFiles/atlas.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\atlas.dir\build.make CMakeFiles/atlas.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\alexe\Desktop\Folders\Lucius\Projects\Software\Atlas of Impossible Worlds\build\CMakeFiles" --progress-num=1,2 "Built target atlas"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\alexe\Desktop\Folders\Lucius\Projects\Software\Atlas of Impossible Worlds\build\CMakeFiles" --progress-num=1,2,3 "Built target atlas"
 .PHONY : CMakeFiles/atlas.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/atlas.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\alexe\Desktop\Folders\Lucius\Projects\Software\Atlas of Impossible Worlds\build\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\alexe\Desktop\Folders\Lucius\Projects\Software\Atlas of Impossible Worlds\build\CMakeFiles" 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/atlas.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\alexe\Desktop\Folders\Lucius\Projects\Software\Atlas of Impossible Worlds\build\CMakeFiles" 0
 .PHONY : CMakeFiles/atlas.dir/rule
@@ -101,7 +101,7 @@ atlas: CMakeFiles/atlas.dir/rule
 # codegen rule for target.
 CMakeFiles/atlas.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\atlas.dir\build.make CMakeFiles/atlas.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\alexe\Desktop\Folders\Lucius\Projects\Software\Atlas of Impossible Worlds\build\CMakeFiles" --progress-num=1,2 "Finished codegen for target atlas"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\alexe\Desktop\Folders\Lucius\Projects\Software\Atlas of Impossible Worlds\build\CMakeFiles" --progress-num=1,2,3 "Finished codegen for target atlas"
 .PHONY : CMakeFiles/atlas.dir/codegen
 
 # clean rule for target.

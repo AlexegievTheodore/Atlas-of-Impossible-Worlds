@@ -152,6 +152,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\atlas.dir\build.make CMakeFiles/atlas.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/world/World.obj: src/world/World.cpp.obj
+.PHONY : src/world/World.obj
+
+# target to build an object file
+src/world/World.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\atlas.dir\build.make CMakeFiles/atlas.dir/src/world/World.cpp.obj
+.PHONY : src/world/World.cpp.obj
+
+src/world/World.i: src/world/World.cpp.i
+.PHONY : src/world/World.i
+
+# target to preprocess a source file
+src/world/World.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\atlas.dir\build.make CMakeFiles/atlas.dir/src/world/World.cpp.i
+.PHONY : src/world/World.cpp.i
+
+src/world/World.s: src/world/World.cpp.s
+.PHONY : src/world/World.s
+
+# target to generate assembly for a file
+src/world/World.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\atlas.dir\build.make CMakeFiles/atlas.dir/src/world/World.cpp.s
+.PHONY : src/world/World.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -164,6 +188,9 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/world/World.obj
+	@echo ... src/world/World.i
+	@echo ... src/world/World.s
 .PHONY : help
 
 
